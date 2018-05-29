@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="112.104676">
+<testcase classname="Order T-shirt and verify in order history" name="User able to order a Tshirt" time="82.434813">
+<system-out><![CDATA[Given user login to the application.........................................passed
+When user selects a product and add it to cart..............................passed
+And user orders a Tshirt....................................................passed
+Then order is reflecting in order history...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Order T-shirt and verify in order history" name="User updates the personal information" time="29.669863">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at Stepdefinition.TestFlow.user_updates_personal_information(TestFlow.java:58)&#13;&#10;&#9;at ✽.When user updates personal information(allscenarios.feature:13)&#13;&#10;"><![CDATA[Given user login to the application.........................................passed
+When user updates personal information......................................failed
+Then updates are saved in user info.........................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at Stepdefinition.TestFlow.user_updates_personal_information(TestFlow.java:58)
+	at ✽.When user updates personal information(allscenarios.feature:13)
+]]></failure>
+</testcase>
+</testsuite>
