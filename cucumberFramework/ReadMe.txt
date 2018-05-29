@@ -10,6 +10,11 @@ Enhancements
 1.Screenshots can be added to each step.
 
 2.Continous integration of Project can be attain with Jenkins introduction.
+ 
+
+Execution
+
+Run the Testexec.java using Junit
 
 
 
